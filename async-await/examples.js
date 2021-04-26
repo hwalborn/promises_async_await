@@ -2,7 +2,7 @@ const asyncTask = () => {
     return new Promise((resolve, _) => {
         setTimeout(() => {
             resolve('Promise fulfilled');
-        }, 1000)
+        }, 1000);
     });
 }
 

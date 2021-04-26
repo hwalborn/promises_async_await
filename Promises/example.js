@@ -10,7 +10,8 @@ const asyncTask = () => {
 }
 
 console.log('starting promise example');
-const myPromise = asyncTask().then((resp) => {
+const myPromise = asyncTask()
+.then((resp) => {
     console.log(resp);
 });
 console.log(myPromise);
