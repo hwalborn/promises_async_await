@@ -9,10 +9,3 @@ asyncTask().then(() => {
 }, (err) => {
     console.log(err);
 });
-
-asyncTask().then(() => {
-    // nothing will happen here
-})
-.catch((err) => {
-    console.log(err);
-})

@@ -22,6 +22,8 @@ const getData = () => {
 
         // NYC Parking violation API
         https.get('https://data.cityofnewyork.us/resource/pvqr-7yc4.json', (resp) => {
+
+        // want to see an error? Comment line 24 and uncomment line 27...
         // https.get('https://data.cityofnewyork.us/resource/pvqr-7yc4.json?bob=123', (resp) => {
 
             // parse through the data

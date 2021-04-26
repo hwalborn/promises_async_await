@@ -17,6 +17,8 @@ module.exports = {
             .then(resolve)
             .catch((err) => reject(err));
         })
+
+        // leaving this here to show as an example in the presentation
         // return fs.promises.writeFile(path.join(__dirname, `carts/${cart.name}.txt`), exampleString);
     },
 
